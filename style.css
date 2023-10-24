@@ -1,0 +1,115 @@
+.cabeçalho {
+    background-color: #6950A1;
+    width: 700px;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title1 {
+    font-size: 30px;
+
+}
+
+.img1 {
+    width: 110px;
+    height: 50px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+
+}
+
+.imgs span {
+    display: flex;
+
+}
+
+button {
+    background-color: #6950A1;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    height: 40px;
+    font-size: 1.2rem;
+
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    width: 650px;
+    padding-right: 500px
+}
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: white;
+    border: #6950A1 5px solid;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.textorodape {
+    font-size: 16px;
+}
+
+.buttons2 {
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    width: 650px;
+    padding-right: 500px
+}
+
+#botaoMais {
+    width: 50px;
+}
+
+#botaoMenos {
+    width: 50px;
+}
+
+.filmCarrinho {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.propPrecos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    
+}
+
+.propButtons {
+    margin-top: 10px;
+    gap: 50px 20px;
+}
